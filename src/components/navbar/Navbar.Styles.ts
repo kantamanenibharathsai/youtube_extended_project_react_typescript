@@ -2,6 +2,7 @@ const navbarStyles = {
   appbar: {
     backgroundColor: "#000000",
     height: "65px",
+    position: "fixed"
   },
 
   toolbar: {

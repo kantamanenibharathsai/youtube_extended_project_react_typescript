@@ -75,7 +75,7 @@ const Navbar: React.FC<Props> = (props: Props) => {
 
     return (
         <Box>
-            <AppBar position="static" sx={navbarStyles.appbar}>
+            <AppBar sx={navbarStyles.appbar}>
                 <Toolbar sx={navbarStyles.toolbar}>
                     <Box sx={navbarStyles.logoContainer}>
                         <IconButton
